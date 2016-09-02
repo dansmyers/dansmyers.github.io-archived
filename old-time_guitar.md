@@ -5,37 +5,8 @@ permalink: /guitar/
 ---
 
 ## Recordings
+![Arkansas Traveler]({{ site.url }}/assets/Arkansas_Traveler.mp3)
 
-    <div class = "recording_section">
-              <table align="center">
-                <tr>
-                  <td>Arkansas Traveler</td>
-                  <td style="padding-left:20px;"> <audio src="Arkansas Traveler.mp3" controls> </audio> 
-                </tr>
-                <tr>
-                  <td>Boatsman</td>
-                  <td style="padding-left:20px;"> <audio src="Boatsman.mp3" controls> </audio> 
-                </tr>
-                <tr>
-                  <td>Garfield's Blackberry Blossom</td>
-                  <td style="padding-left:20px;"> <audio src="Garfield's Blackberry Blossom.mp3" controls> </audio> 
-                </tr>
-                <tr>
-                  <td>Big Scioto </td>
-                  <td style="padding-left:20px;"> <audio src="Big Scioto.mp3" controls> </audio> 
-                </tr>
-                <tr>
-                  <td>Texas</td>
-                  <td style="padding-left:20px;"> <audio src="Texas.mp3" controls> </audio> 
-                </tr>
-                <tr>
-                  <td>Kitchen Girl</td>
-                  <td style="padding-left:20px;"> <audio src="Kitchen Girl.mp3" controls> </audio> 
-                </tr>
-
-              </table>
-        
-            </div>
 
 ## About the Recordings
 
