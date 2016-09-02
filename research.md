@@ -3,7 +3,10 @@ layout: page
 title: Research
 permalink: /research/
 ---
-## Research Interests
+
+<br/>
+
+### Interests
 
 My scholarly work has been concentrated in the areas of computer performance analysis, queueing theory. More recently, I've been collaborating with students on projects involving course timetabling, AI, and CS education tools.
 
@@ -26,6 +29,8 @@ The development of COLT has been supported by a grant from the [Mindlin Foundati
 
 Recently, Dr. Jay Yellen of the Rollins math department and I have been collaborating to create a new course timetabling system for the college. Our system, based on Dr. Yellen's previous work, models the scheduling problem as a coloring of a weighted graph. We are currently working on developing fast, admissible heuristics for a search over the space of possible room and timeslot assignments.
 
+
+<br/>
 
 ## Publications and Selected Presentations
 Undergraduate student co-authors at Rollins College are <u>underlined</u>.
