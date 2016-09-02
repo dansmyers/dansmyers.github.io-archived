@@ -28,6 +28,6 @@ permalink: /courses/
 
 <br/>
   
-## Wisconsin Center for Academically Talented Youth (WCATY)
+## Wisconsin Center for Academically Talented Youth
 
   - Intro to Computer Science (six summers, 2009-2014)
