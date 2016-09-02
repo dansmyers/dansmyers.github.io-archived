@@ -5,7 +5,7 @@ permalink: /guitar/
 ---
 
 ## Recordings
-![Arkansas Traveler]({{ site.url }}/assets/Arkansas_Traveler.mp3)
+![Texas]({{ site.url }}/assets/Texas.mp3)
 
 
 ## About the Recordings
