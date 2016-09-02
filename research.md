@@ -9,17 +9,16 @@ My scholarly work has been concentrated in the areas of computer performance ana
 
 **Analytic Performance Models**
 
-Modern storage systems in internet-scale applications must store vast amounts of data, protect it from loss, and deliver consistent performance, all for minimal capital and energy costs. New technologies, including solid-state drives, are competing to replace hard disk drives in certain applications. Understanding what really drives storage performance is the key to creating the next-generation of high-performance systems.
+Modern storage systems in internet-scale applications must store vast amounts of data, protect it from loss, and deliver consistent performance, all for minimal capital and energy costs. Understanding what really drives storage performance is the key to creating the next-generation of high-performance systems.
 
-I approach these problems using the techniques of *analytic performance modeling*. Analytic models are mathematical descriptions of the essential characteristics of a system, often based on applied statistics or queueing theory. A properly validated model aids system designers by precisely identifying the parameters that actually drive performance. Analytic techniques can provide a faster and lower-cost alternative to simulation for exploring new system architectures and design tradeoffs.
+I approach these problems using the techniques of *analytic performance modeling*. Analytic models are mathematical descriptions of the essential characteristics of a system, often based on applied statistics or queueing theory. Analytic techniques can provide a faster and lower-cost alternative to simulation for exploring new system architectures and design tradeoffs.
 
-I'm also interested in the theoretical background of performance modeling and have developed new approximations for queueing network models. This is valuable because important quantities such as the queue length and waiting time distributions cannot be calculated exactly for many models of practical interest.
 
 **CS Education**
 
 Previous work has shown that *coding literacy*, the ability to read and interpret written programs, is an important precursor to writing new code. Therefore, explicit instruction in coding literacy may be accelerate the development of new computer science students, particularly those that lack previous exposure to programming.
 
-With Neeraj Chatlani, a Rollins computer science major, I developed COLT: the Coding Literacy Trainer, web-based application for teaching new programmers about program interpreation. COLT automatically generates a program, then prompts its user to answer a question about the program's execution. It uses an *adaptive curiosity* model [inspired by previous work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/) to track a user's progress and zero in on the appropriate level of complexity for each learner's current ability level.
+Neeraj Chatlani, a Rollins computer science major, and I have developed COLT: the Coding Literacy Trainer, web-based application for teaching new programmers about program interpreation. COLT automatically generates a program, then prompts its user to answer a question about the program's execution. It uses an *adaptive curiosity* model [inspired by previous work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/) to track a user's progress and zero in on the appropriate level of complexity for each learner's current ability level.
 
 The development of COLT has been supported by a grant from the [Mindlin Foundation](https://mindlinfoundation.org).
 
