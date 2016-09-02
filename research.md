@@ -6,7 +6,7 @@ permalink: /research/
 
 <br/>
 
-### Interests
+## Interests
 
 My scholarly work has been concentrated in the areas of computer performance analysis, queueing theory. More recently, I've been collaborating with students on projects involving course timetabling, AI, and CS education tools.
 
