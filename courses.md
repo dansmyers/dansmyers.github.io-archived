@@ -15,7 +15,7 @@ permalink: /courses/
   - Computer Networks (2014)
   - Advanced Operating Systems (2014)
   
-* General education course
+*General education course
 
 <br/>
 
