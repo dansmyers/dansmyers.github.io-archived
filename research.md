@@ -19,7 +19,9 @@ I approach these problems using the techniques of *analytic performance modeling
 
 Previous work has shown that *coding literacy*, the ability to read and interpret written programs, is an important precursor to writing new code. Therefore, explicit instruction in coding literacy may be accelerate the development of new computer science students, particularly those that lack previous exposure to programming.
 
-Neeraj Chatlani, a Rollins computer science major, and I have developed COLT: the Coding Literacy Trainer, web-based application for teaching new programmers about program interpreation. COLT automatically generates a program, then prompts its user to answer a question about the program's execution. It uses an *adaptive curiosity* model [inspired by previous work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/) to track a user's progress and zero in on the appropriate level of complexity for each learner's current ability level.
+Neeraj Chatlani, a Rollins computer science major, and I have developed COLT: the Coding Literacy Trainer, web-based application for teaching new programmers about program interpreation. COLT automatically generates a program, then prompts its user to answer a question about the program's execution.
+
+COLT uses an *adaptive curiosity* model [inspired by previous work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/) to track a user's progress and zero in on the appropriate level of complexity for each learner's current ability level.
 
 The development of COLT has been supported by a grant from the [Mindlin Foundation](https://mindlinfoundation.org).
 
