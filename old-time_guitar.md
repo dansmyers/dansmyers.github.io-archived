@@ -5,7 +5,7 @@ permalink: /guitar/
 ---
 
 ## Recordings
-[audio]({{ site.url }}/assets/Texas.mp3)
+[audio]({{ site.url }}/assets/Texas.mp3 "Texas")
 
 
 ## About the Recordings
