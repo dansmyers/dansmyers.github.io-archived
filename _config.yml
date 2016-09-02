@@ -1,0 +1,30 @@
+# Dependencies
+markdown:         kramdown
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Dan S. Myers
+tagline:          'Rollins College'
+description:      'Computer Science'
+description2:      'Rollins College'
+#url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Dan S. Myers'
+  #url:            https://twitter.com/mdo
+
+paginate:         3
+
+# Custom vars
+#version:          2.1.0
+
+github:           dansmyers
+#  repo:           https://github.com/dansmyers
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
