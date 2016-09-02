@@ -15,7 +15,9 @@ My teaching interests span the computer science curriculum, but I currently spec
 including security and networking. I lead general education courses through the 
 [Innovate, Create, Elevate (ICE)](http://www.rollins.edu/rollins-foundations-liberal-arts/neighborhoods/innovate-create-elevate.html)
 neighborhood, part of the [Rollins Foundations in the Liberal Arts (rFLA) curriculum](http://www.rollins.edu/rollins-foundations-liberal-arts
-index.html). In 2015, I offered a new course in tech entrepreneurship that combined programming,
+index.html).
+
+In 2015, I offered a new course in tech entrepreneurship that combined programming,
 business, and a scientific approach to launching new ventures. In 2016-2017, I am serving as 
 "Mayor" of the ICE neighborhood and leading the first edition of our new general education capstone,
 applying agile development concepts to interdisciplinary projects.
@@ -25,7 +27,9 @@ Wisconsin-Madison](http://www.cs.wisc.edu), advised by [Mary Vernon](http://cs.w
 [Remzi Arpaci-Dusseau](http://www.cs.wisc.edu/~remzi). My dissertation developed analytic 
 performance models for back-end storage systems and new approximations for multi-server queueing systems. 
 This project was inspired by an internship I completed at 
-[Google Madison](https://www.google.com/about/locations/madison/). Before attending UW-Madison, I
+[Google Madison](https://www.google.com/about/locations/madison/).
+
+Before attending UW-Madison, I
 worked as a software engineer at 
 [Sandia National Laboratories](http://www.sandia.gov) in Albuquerque, NM, where I worked with 
 teams applying image processing and computer vision algorithms to national security problems.
