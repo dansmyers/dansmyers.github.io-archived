@@ -5,13 +5,13 @@ permalink: /courses/
 ---
 
 ## Rollins College
-  - Systems Software Principles (2016, 2017)
+  - Systems Software Principles (2017, 2016)
   - Artificial Intelligence (2017)
-  - Introduction to Computer Systems (2015, 2016)
+  - Introduction to Computer Systems (2016, 2015)
   - Creating the Future* (2016)
   - Computer Security (2016)
   - Starting a Tech Company* (2015)
-  - Data Structures and Algorithms (2014, 2015)
+  - Data Structures and Algorithms (2015, 2014)
   - Computer Networks (2014)
   - Advanced Operating Systems (2014)
   
