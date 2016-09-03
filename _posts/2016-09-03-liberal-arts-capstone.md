@@ -6,5 +6,5 @@ categories: teaching
 ---
 
 ```
-$$ \Latex $$
+$$ x = y^z $$
 ```
