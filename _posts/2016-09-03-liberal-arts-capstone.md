@@ -6,5 +6,5 @@ categories: teaching
 ---
 
 ```
-$$ x = y^z $$
+$$ x = y^z  + q$$
 ```
