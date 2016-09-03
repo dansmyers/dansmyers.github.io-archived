@@ -31,7 +31,7 @@ This project was inspired by an internship I completed at
 
 Before attending UW-Madison, I
 worked as a software engineer at 
-[Sandia National Laboratories](http://www.sandia.gov) in Albuquerque, NM, where I worked with 
+[Sandia National Laboratories](http://www.sandia.gov) in Albuquerque, NM, with 
 teams applying image processing and computer vision algorithms to national security problems.
 
 I occasionally compete in old-time and bluegrass guitar contests, and I've received first prizes
