@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up an Enterprise Wi-fi Connection on the Raspberry Pi"
+title:  "Setting up a WPA2-Enterprise Wi-fi Connection on the Raspberry Pi"
 date:   2016-09-29
 categories: systems, classes
 ---
