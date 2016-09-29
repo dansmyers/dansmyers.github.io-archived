@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Setting up an Enterprise Wi-fi Connection on the Raspberry Pi from the Command Line"
-date:   2016-09-01
-categories: admin
+date:   2016-09-29
+categories: systems, classes
 ---
 
 New for this year, I'm using the Raspberry Pi as the hardward platform in our Introduction to Computer Systems course. The students have been working through a series of labs on setting up the Pi and getting used to working in a console-based Linux environment.
