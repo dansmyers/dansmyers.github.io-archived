@@ -48,3 +48,36 @@ sudo reboot
 ```
 
 was required to make the changes take effect.
+
+### Using a Password Hash
+
+Of course, storing your password in plain text seems unwise, so let's modify the configuration file to store the **hash** of the password instead.
+
+First, generate a hash from the Pi's console:
+
+```
+echo -n YourRealPasswordGoesHere | iconv -t utf16le | openssl md4
+```
+
+This will print something like
+
+```
+(stdin)= e1cdef0c56789db0123456789abcdef
+```
+
+Reopen the `wpa-supplicant.conf` file and modify the `password` line in the configuration file to look like the following:
+
+```
+password=hash:e1cdef0c56789db0123456789abcdef
+```
+
+Note that quotes are no longer required.
+
+An additonal `sudo reboot` will probably be required to re-authenticate to the network.
+
+For a final step, clear your history so no one can recover your password by snooping through your previous commands:
+
+```
+history -c
+history -n
+```
