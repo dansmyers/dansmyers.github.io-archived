@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting up an Enterprise Wi-fi Connection on the Raspberry Pi from the Command Line"
+title:  "Setting up an Enterprise Wi-fi Connection on the Raspberry Pi"
 date:   2016-09-29
 categories: systems, classes
 ---
