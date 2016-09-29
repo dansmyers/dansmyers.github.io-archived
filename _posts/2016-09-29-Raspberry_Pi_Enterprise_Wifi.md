@@ -49,7 +49,7 @@ sudo reboot
 
 was required to make the changes take effect.
 
-### Using a Password Hash
+### Security?
 
 Of course, storing your password in plain text seems unwise, so let's modify the configuration file to store the **hash** of the password instead.
 
