@@ -18,7 +18,7 @@ ssh pi@raspberrypi.local
 Once you have a console on the Pi, you will need to edit a configuration file located at
 
 ```
-`/etc/wpa_supplicant/wpa_supplicant.conf` 
+/etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
 to configure the wireless connection.
