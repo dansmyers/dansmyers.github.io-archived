@@ -9,7 +9,7 @@ New for this year, I'm using the Raspberry Pi as the hardward platform in our In
 
 The first lab required them to set up a connection to the campus wireless network. This turns out to be a little tricky. The official Raspberry Pi docs describe [setting up a wireless connection](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md), but our campus network uses WPA2 enterprise authentication, which requires a more complex configuration.
 
-The basic process for command-line wi-fi configuration is to first log in to the Pi and open a terminal; we do this by connecting the Pi to a desktop Mac with an ethernet cable, then using the Mac's terminal application and 
+The basic process for command-line wi-fi configuration is to first log in to the Pi and open a terminal; we do this by connecting the Pi to a desktop Mac with an ethernet cable, then using the Mac's terminal application and SSH:
 
 ```
 ssh pi@raspberrypi.local
