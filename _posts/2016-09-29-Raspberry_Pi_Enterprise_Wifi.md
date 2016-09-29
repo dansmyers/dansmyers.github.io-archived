@@ -77,9 +77,9 @@ Reopen the `wpa-supplicant.conf` file and modify the `password` line in the conf
 password=hash:e1cdef0c56789db0123456789abcdef
 ```
 
-Note that quotes are no longer required.
+The long string to the right of the colon will be replaced with the unique hash string generated for your password in the previous step. Note that quotes are no longer required.
 
-An additonal `sudo reboot` will probably be required to re-authenticate to the network.
+An additonal `sudo reboot` will probably be required to re-authenticate to make the new configuration file take effect.
 
 For a final step, clear your history so no one can recover your password by snooping through your previous commands:
 
