@@ -15,7 +15,13 @@ The basic process for command-line wi-fi configuration is to first log in to the
 ssh pi@raspberrypi.local
 ```
 
-Once you have a console on the Pi, edit the file `/etc/wpa_supplicant/wpa_supplicant.conf` to configure the wireless connection.
+Once you have a console on the Pi, you will need to edit a configuration file located at
+
+```
+`/etc/wpa_supplicant/wpa_supplicant.conf` 
+```
+
+to configure the wireless connection.
 
 After a little hunting, including some help from [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=44029), I came up with a configuration file that worked.
 
