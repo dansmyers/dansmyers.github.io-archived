@@ -9,7 +9,13 @@ New for this year, I'm using the Raspberry Pi as the hardward platform in our In
 
 The first lab required them to set up a connection to the campus wireless network. This turns out to be a little tricky. The official Raspberry Pi docs describe [setting up a wireless connection](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md), but our network uses WPA2 enterprise authentication.
 
-The basic process for command-line wi-fi configuration is to first log in to the Pi and open a terminal; we do this by making a direct connection between the Pi and desktop Mac, then using the Mac's terminal application and `ssh`. Once you have a console on the Pi, edit the file `/etc/wpa_supplicant/wpa_supplicant.conf` to configure the wireless connection.
+The basic process for command-line wi-fi configuration is to first log in to the Pi and open a terminal; we do this by connecting the Pi to a desktop Mac with an ethernet cable, then using the Mac's terminal application and 
+
+```
+ssh pi@raspberrypi.local
+```
+
+Once you have a console on the Pi, edit the file `/etc/wpa_supplicant/wpa_supplicant.conf` to configure the wireless connection.
 
 After a little hunting, including some help from [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=44029), I came up with a configuration file that worked.
 
