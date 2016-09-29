@@ -7,11 +7,11 @@ categories: systems, classes
 
 New for this year, I'm using the Raspberry Pi as the hardward platform in our Introduction to Computer Systems course. The students have been working through a series of labs on setting up the Pi and getting used to working in a console-based Linux environment.
 
-The first lab required them to set up a connection to the campus wireless network. This turns out to be a little tricky. The official Raspberry Pi docs describe (setting up a wireless connection)[https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md], but our network uses WPA-EAP enterprise authentication.
+The first lab required them to set up a connection to the campus wireless network. This turns out to be a little tricky. The official Raspberry Pi docs describe [setting up a wireless connection](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md), but our network uses WPA-EAP enterprise authentication.
 
 The basic process for command-line wi-fi configuration is to first log in to the Pi and open a terminal; we do this by making a direct connection between the Pi and desktop Mac, then using the Mac's terminal application and `ssh`. Once you have a console on the Pi, edit the file `/etc/wpa_supplicant/wpa_supplicant.conf` to configure the wireless connection.
 
-After a little hunting, including some help from  (this post)[https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=44029], I came up with a configuration file that worked.
+After a little hunting, including some help from [this post](https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=44029), I came up with a configuration file that worked.
 
 ```
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
