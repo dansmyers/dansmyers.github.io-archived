@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Coding Literacy Trainer</title>
+	
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/colt.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<h1>COLT: the Coding Literacy Trainer</h1>
+		
+		<!-- Program column -->
+		<div class='col-lg-4'>
+			<h3>Program</h3>
+			<pre><code id='program'> </code></pre>
+		</div> <!-- End program column -->
+		
+		<!-- Question column -->
+		<div class='col-lg-4'>
+			<h3>Question</h3>
+			<p id='question'>
+				What is the value of <code>b</code> after the program finishes execution?
+			</p>
+			<p>
+				Answer = <input type='text' id='answer'/>
+			</p>
+			
+			<button class='btn-primary' id='submit'>Submit</button>
+			
+			<h3><div id='response'> </div></h3>
+		</div> <!-- End question column -->
+		
+		<!-- Scratchpad column -->
+		<div class='col-lg-4'>
+			<h3>Scratchpad</h3>
+			
+			<div id='scratchpad'></div>
+		</div> <!-- End scratchpad column -->
+		
+	</div> <!-- End container -->
+	
+	<!-- Instructional modals for new unlocked language features -->
+	
+	<!-- if statement unlocked -->
+	<div id="ifModal" class="modal fade" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+        <h3 class="modal-title">Achievement Unlocked!</h3>
+      </div>
+      <div class="modal-body">
+				<h4>Conditional Statements</h4>
+        <p>A conditional statement (or <code>if</code> statement) allows a block
+				of code to execute only if a certain condition is satisfied.</p>
+				
+				<p>Here's an example:</p>
+				<pre><code>
+var a = 2;
+var b = 1;
+					
+if (a > b) {
+    a = b;
+}
+				</code></pre>
+				<p>The <code>if</code> statement tests if certain condition
+					is true. This example tests if <code>a</code> is greater than
+					<code>b</code>, which is true.</p>
+					
+				<p>If the condition is true, the statements in
+					between the curly braces, <code>{</code> and <code>}</code>,
+					are executed.</p>
+					
+				<p>If the condition is false, the statements are not executed
+					and the program simply continues to the next line after
+					the <code>if</code> block.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- End of if modal -->
+
+
+<!-- if-else statement unlocked -->
+<div id="ifElseModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+			<h3 class="modal-title">Achievement Unlocked!</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Alternative Execution</h4>
+			<p>The <code>if-else</code> statement has two possible paths.
+			One of the two is chosen based on a test.</p>
+			
+			<p>Here's an example:</p>
+			<pre><code>
+var a = 1;
+var b = 3;
+				
+if (a > b) {
+	b = a;
+} else {
+	a = b;
+}
+			</code></pre>
+			<p>If the condition evaluates to true, the code within the 
+			<code>if</code> block is executed and <code>else</code> block 
+		  is skipped.</p>
+				
+			<p>If the condition is false, the <code>if</code> block is
+				skipped and the <code>else</code> block is executed.
+				
+			<p>In this case, the condition is false, so the <code>else</code>
+			block executes and <code>a</code> will be set to the value of
+			<code>b</code>.
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+		</div>
+	</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- End of if-else modal -->
+
+
+<!-- function statement unlocked -->
+<div id="functionModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+			<h3 class="modal-title">Achievement Unlocked!</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Functions</h4>
+			<p>A function is a block of code that can be <i>called</i> from
+				another part of the program. Functions are frequently used
+				for code that's going to be re-used multiple times, so it
+				doesn't have to be copied over and over again</p>
+			
+			<p>Here's an example:</p>
+			<pre><code>
+function fun() {
+	var p = 1;
+	var q = 2;
+	
+	return p + q;
+}
+				
+var a = fun();
+			</code></pre>
+			<p>The program defines a function named <code>fun</code> that
+				contains four statements. The function's code does not execute
+				immediately when the program runs, but only when it is called
+				by antoher part of the program.</p>
+				
+			<p>The line
+				<pre><code>
+var a = fun();
+				</code></pre>
+				calls the function, which causes the program to jump up to
+				<code>fun</code> and begin executing its code.</p>
+					
+			<p>The last line of <code>fun</code> returns a value back out
+				to the rest of the program. In this case, the returned value
+				is 3.</p>
+				
+			<p>The returned value is then assigned to <code>a</code>,
+				resulting in <code>a</code> being set to 3.</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+		</div>
+	</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- End of function modal -->
+
+
+<!-- function args unlocked -->
+<div id="functionArgsModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+			<h3 class="modal-title">Achievement Unlocked!</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Function Arguments</h4>
+			<p>A function can also take <i>arguments</i> that control its
+				execution.</p>
+			
+			<p>Here's an example:</p>
+			<pre><code>
+function fun(p) {
+	var q = p = 2;
+	
+	return p + q;
+}
+				
+var a = 1;
+var b = fun(a);
+			</code></pre>
+			<p>Here, function <code>fun</code> takes a single argument when
+				it's called. In this example, the value of <code>a</code>, 1,
+				is passed in to <code>fun</code> and assigned to the variable
+				<code>p</code>.</p>
+				
+			<p><code>p</code> can be used like any other variable within 
+				the function, but it's initial value is controlled by the
+				argument given when <code>fun</code> is called.</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+		</div>
+	</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- End of function args modal -->
+
+<!-- for statement unlocked -->
+<div id="forModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+			<h3 class="modal-title">Achievement Unlocked!</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Loops</h4>
+			<p>A <i>loop</i> is a statement that executes a block of code
+				multiple times.</p>
+				
+			<p>One basic type of loop is the <code>for</code> loop.
+			
+			<p>Here's an example:</p>
+			<pre><code>
+var a = 1;
+
+for (var i = 0; i < 2; i++) {
+    a = a + 1;
+}
+			</code></pre>
+			<p>The variable <code>i</code> is called the <i>loop index
+				variable</i>. It's used like a counter to keep track of how
+				many times the loop has executed.</p>
+				
+			<p>The loop declaration has three parts.</p>
+		
+			</p>First, an initialization, which assigns an initial value to
+			<code>i</code> at the start of the loop. In this case,
+			<code>i</code> is initialized to 0.</p>
+			
+			<p>Second, a stopping condition. The loop continues to run until
+				this condition becomes true. In this case, the loop will
+				repeat until  <code>i</code> becomes 2 or greater.</p>
+			
+			<p>The third part specifies how the loop index variable
+				<code>i</code> changes at the end of each pass through the
+				loop. Here, <code>i++</code> is a special shorthand to 
+				indicate that <code>i</code> increases by 1 on each trip
+				through the loop body.</p>
+				
+				<p>On the first pass through the loop, <code>i</code> is 0.
+					The body of the loop executes, and adds 1 to <code>a</code>.
+					At the end of the loop body, <code>i</code> is increased to
+					1, and the loop checks to see if the stopping condition is
+					satisfied. It's not, so the loop repeats.</p>
+					
+				<p>On the second pass, <code>i</code> is 1. The loop body
+					executes and <code>a</code> is increased to 3. At the end
+					of the loop body, <code>i</code> is increaesd again,
+					becoming 2. The stopping condition is now satisfied, so the
+					loop ends.</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+		</div>
+	</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- End of for modal -->
+
+
+<!-- while statement unlocked -->
+<div id="whileModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+			<h3 class="modal-title">Achievement Unlocked!</h3>
+		</div>
+		<div class="modal-body">
+			<h4>Loops</h4>
+			<p>An second type of loop is the <code>while</code> loop.
+			
+			<p>Here's an example:</p>
+			<pre><code>
+var a = 1;
+var b = 3;
+
+while (a < b) {
+	a = a + 1;
+}
+			</code></pre>
+			<p>The <code>while</code> loop continues to execute as long as
+				its condition is true.</p>
+				
+			<p>In this case, the condition is true when the loop begins,
+				because 1 is less than 3, so the loop body executes.</p>
+				
+			<p>The first pass through the loop increase <code>a</code> to
+				2. The condition is checked again, and it's still true
+				(because 2 is less than 3), so the body executes another
+				time.</p>
+				
+			<p>On the second pass through the loop, <code>a</code> is
+				increased to 3. The condition is now false, so the loop
+				stops, and the body does not execute again.</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+		</div>
+	</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- End of while modal -->
+
+
+<!-- Done!-->
+<div id="doneModal" class="modal fade" role="dialog">
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+			<h3 class="modal-title">Congraulations!</h3>
+		</div>
+		<div class="modal-body">
+			<p>You have completed the Coding Literacy Trainer. Now go and 
+			create your own programs!</p>
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
+		</div>
+	</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- End of while modal -->
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="./js/bootstrap.min.js"></script>
+
+	<!-- Application scripts -->
+	<script src='./js/learningModel.js'> </script>
+	<script src='./js/problem.js'> </script>
+	<script src='./js/colt.js'> </script>
+
+</body>
+
+</html>
