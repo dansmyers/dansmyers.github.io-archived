@@ -35,7 +35,11 @@ Recently, Dr. Jay Yellen of the Rollins math department and I have been collabor
 ## Publications and Selected Presentations
 Undergraduate student co-authors at Rollins College are <u>underlined</u>.
 
-<u>S.R. Shrestha</u>, D.S. Myers, and R.A. Lewin. “Optimizing Strategies for Monopoly: the MEGA Edition Using Genetic Algorithms and Simulations”. *Academy of Economics and Finance Journal*, vol. 7 (2016). Forthcoming.
+"Length Distributions and Dynamic Buffer Sizing in Multi-Server Queueing Systems". Southeast Decision Sciences 2017. Charleston, SC, 2/2017.
+
+"Using Machine Learning to Understand Storage Performance". Invited research seminar. Florida Southern College. 2/2017.
+
+<u>S.R. Shrestha</u>, D.S. Myers, and R.A. Lewin. “Optimizing Strategies for Monopoly: the MEGA Edition Using Genetic Algorithms and Simulations”. *Academy of Economics and Finance Journal*, vol. 7 (2016).
 
 D.S. Myers, J. Rickman, J. Yellen, and <u>R. Zere</u>. “Comparing Exact and Heuristic Algorithms for a Course Timetabling Problem”. In *Proc. of the 11th International Conference on the Practice and Theory of Automated Timetabling* (PATAT 2016). Udine, Italy, 8/2016.
 
