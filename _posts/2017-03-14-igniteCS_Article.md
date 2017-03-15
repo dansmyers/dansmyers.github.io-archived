@@ -5,7 +5,7 @@ date:   2017-03-14
 categories: community, teaching, service, grants
 ---
 
-This semester nine Rollins students led by Sam Sadeh, a computer science major, have been leading an after-school computer science mentoring program at Fern Creek Elementary School in Orlando. The program is funded by a grant from Google through their [igniteCS initiative](https://ignitecs.withgoogle.com). I'm the faculty advisor on the project.
+This semester nine Rollins students led by Sam Sadeh, a computer science major and social entrepreneurship minor, have been leading an after-school computer science mentoring program at Fern Creek Elementary School in Orlando. The program is funded by a grant from Google through their [igniteCS initiative](https://ignitecs.withgoogle.com). I'm the faculty advisor on the project.
 
 [A profile of Sam and the program](https://360.rollins.edu/people/igniting-kids-imagination-through-computer-science) is now up on the Rollins 360 website. I'm also interviewed in the article. Here's a short excerpt:
 
