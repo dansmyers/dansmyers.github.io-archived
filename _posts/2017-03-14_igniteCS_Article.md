@@ -18,5 +18,5 @@ This semester nine Rollins students led by Sam Sadeh, a computer science major, 
 > “The aha moment is when they take it miles beyond whatever I could have dreamed up in the lesson plan,” says Sadeh, a computer science >major and social entrepreneurship minor. “The beauty of coding is the creative problem-solving, and these kids are definitely creative.”
 >
 > This spring, as part of an $1,100 grant through Google’s igniteCS initiative, Sadeh and eight Rollins classmates have used MIT’s child- > friendly Scratch software to teach the basics of coding to students in Fern Creek’s after-school program
->
-> I'm tremendously proud of the leadership our students have shown and what they've accomplished so far. Fern Creek will be closing at the > end of this academic year, but we're looking forward to continuing the program at new home next year.
+
+I'm tremendously proud of the leadership our students have shown and what they've accomplished so far. Fern Creek will be closing at the > end of this academic year, but we're looking forward to continuing the program at new home next year.
