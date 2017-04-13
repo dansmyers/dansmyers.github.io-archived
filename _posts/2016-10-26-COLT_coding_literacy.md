@@ -5,18 +5,17 @@ date:   2016-09-29
 categories: research, coding literacy
 ---
 
-I'm pleased to announce the alpha release of COLT: the Coding Literacy Trainer, an adaptive teaching tool developed in collaboration with
-Neeraj Chatlani, a Rollins computer science major.
+I'm pleased to announce the alpha release of COLT: the Coding Literacy Trainer, an adaptive teaching tool developed in collaboration with Neeraj Chatlani, a Rollins computer science major.
 
-COLT explores some of our ideas realted to *coding literacy*: the ability to read and interpret written programs. In the same way that reading is preparatory to writing, we believe that formal instruction in reading and understanding written programs may accelerate the acquisition of basic programmming skills.
+Coding literacy is the ability to understand written computer programs. In the same way that reading is preparatory to writing, literacy is a valuable skill for novice programmers, because understanding written code requires developing and applying mental models of how programs execute.
 
-Enrollments in CS classes are still growing, and more students that ever are coming into the field from non-traditional background, possibly lacking some of the preprequisites (particularlyin algebra) that have traditionally been assumed in the CS major. We think tools like COLT provide one means of bridging that gap and getting more students to success in their first programming class.
+Enrollments in CS classes are still growing, and more students are coming into the field from non-traditional backgrounds, often lacking some of the preprequisites (particularly algebra) that have traditionally been assumed for new CS majors. We think tools like COLT provide one means of bringing more students to success in their first programming class.
 
-COLT generates random programs, presents them to a user, and asks a question about the program's output. As the user responds, the system maintains a learning model that keeps track of the user's correct and incorrect answers. As the user demonstrates progress, the system unlocks new features and gradually makes the problem more complex.
+COLT generates a random program, presents it to a user, and asks a question about the program's output. As the user responds, the system maintains a learning model that keeps track of the user’s correct and incorrect answers. As the user demonstrates progress, the system unlocks new features and gradually makes the problem more complex.
 
 Our learning model is based on a framework called Adaptive Intrinsic Curiosity. Inspired by [Lisa Meeden's work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/), AIC attempts to identify the right level of difficulty for a learner, avoiding both "plateuas," where problems are too easy to be interesting, and "mountains," where they're too difficult. Neeraj presented an overview of COLT and AIC approach at the 2016 SIGCSE conference in Memphis.
 
-Technically, COLT is a pure client-side web application, written in JavaScript and the Bootstrap framework. This makes it easy to deploy to students using only a web link: no downloads, installs, or server setups are required.
+Technically, COLT is a pure client-side web application. The learning model and random program generation code are written in JavaScript and it uses the Bootstrap framework for layout and styling. This combination makes it easy to deploy to students using only a web link: no downloads, installs, or server setups are required.
 
 We're considering a number of future directions for this project:
 
@@ -26,6 +25,6 @@ We're considering a number of future directions for this project:
   
   - We'd like to produce versions of COLT for different languages. A good setup would have a single underlying generator that is transformed by an outer presentation layer.
 
-A demo version of COLT is available [here](https://dansmyers.github.io/assets/colt/codingliteracytrainer.html) and the 
-source code is available [on GitHub](https://github.com/dansmyers/CodingLiteracyTrainer).
+A demo version of COLT is available [here](https://codingliteracy.github.io/CodingLiteracyTrainer) and the 
+source code is available [on GitHub](https://github.com/codingliteracy/CodingLiteracyTrainer).
 
