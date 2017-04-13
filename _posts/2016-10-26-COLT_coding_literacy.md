@@ -13,7 +13,7 @@ Enrollments in CS classes are still growing, and more students are coming into t
 
 COLT generates a random program, presents it to a user, and asks a question about the program's output. As the user responds, the system maintains a learning model that keeps track of the user’s correct and incorrect answers. As the user demonstrates progress, the system unlocks new features and gradually makes the problem more complex.
 
-Our learning model is based on a framework called Adaptive Intrinsic Curiosity. Inspired by [Lisa Meeden's work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/), AIC attempts to identify the right level of difficulty for a learner, avoiding both "plateuas," where problems are too easy to be interesting, and "mountains," where they're too difficult. Neeraj presented an overview of COLT and AIC approach at the 2016 SIGCSE conference in Memphis.
+Our learning model is based on a framework called Adaptive Intrinsic Curiosity. Inspired by [Lisa Meeden's work in developmental robotics](https://www.cs.swarthmore.edu/~meeden/), AIC attempts to identify the right level of difficulty for a learner, avoiding both "plateaus," where problems are too easy to be interesting, and "mountains," where they're too difficult. Neeraj presented an overview of COLT and AIC approach at the 2016 SIGCSE conference in Memphis.
 
 Technically, COLT is a pure client-side web application. The learning model and random program generation code are written in JavaScript and it uses the Bootstrap framework for layout and styling. This combination makes it easy to deploy to students using only a web link: no downloads, installs, or server setups are required.
 
