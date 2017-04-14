@@ -66,7 +66,7 @@ html {
     top: 0;
     left: 2rem;
     bottom: 0;
-    width: 20rem;
+    width: 22rem;
     text-align: left;
   }
 }
@@ -80,7 +80,7 @@ html {
 .sidebar-about h1 {
   color: #313131;
   margin-top: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   font-size: 2.5rem;
 }
 
