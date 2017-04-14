@@ -33,7 +33,7 @@
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #fbfbfb;
+  background-color: #fcfcfc;
 }
 @media (min-width: 48em) {
   html {
@@ -60,7 +60,7 @@ html {
   color: rgba(0,0,0,.9);
   background-color: #fcfcfc;
 }
-@media (min-width: 48em) {
+@media (min-width: 58em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -124,7 +124,7 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 58em) {
   .content {
     max-width: 40rem;
     margin-left: 24rem;
