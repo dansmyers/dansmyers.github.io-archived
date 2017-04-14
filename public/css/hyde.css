@@ -32,16 +32,17 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fbfbfb;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -56,30 +57,30 @@ html {
 .sidebar {
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: rgba(0,0,0,.9);
+  background-color: #fcfcfc;
 }
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 2rem;
     bottom: 0;
-    width: 18rem;
+    width: 20rem;
     text-align: left;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #313131;
 }
 
 /* About section */
 .sidebar-about h1 {
-  color: #fff;
+  color: #313131;
   margin-top: 0;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.5rem;
 }
 
@@ -119,21 +120,21 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
+  padding-top:    3rem;
   padding-bottom: 4rem;
 }
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
-    margin-left: 20rem;
+    max-width: 40rem;
+    margin-left: 24rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 24rem;
     margin-right: 4rem;
   }
 }

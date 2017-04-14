@@ -22,11 +22,11 @@ paginate:         3
 #version:          2.1.0
 
 github:           dansmyers
-#  repo:           https://github.com/dansmyers
+repo:           https://github.com/dansmyers
 
 # Gems
 gems:
   - jekyll-paginate
   - jekyll-gist
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
