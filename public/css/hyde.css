@@ -37,10 +37,15 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
-@media (min-width: 58em) {
+@media (min-width: 56em) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 64em) {
   html {
     font-size: 18px;
   }
@@ -59,7 +64,7 @@ html {
   padding: 2rem 1rem;
   color: rgba(0,0,0,.9);
 }
-@media (min-width: 58em) {
+@media (min-width: 64em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -122,18 +127,11 @@ a.sidebar-nav-item:focus {
   padding-bottom: 4rem;
 }
 
-@media (min-width: 58em) {
+@media (min-width: 64em) {
   .content {
     max-width: 40rem;
     margin-left: 24rem;
     margin-right: 2rem;
-  }
-}
-
-@media (min-width: 64em) {
-  .content {
-    margin-left: 24rem;
-    margin-right: 4rem;
   }
 }
 
