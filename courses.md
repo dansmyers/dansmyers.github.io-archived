@@ -4,7 +4,7 @@ title: Courses
 permalink: /courses/
 ---
 
-## Rollins College
+### Rollins College
   - Introduction to Computer Systems (2017, 2016, 2015)
   - Digital Media, the Web, and Coding<sup>&dagger;</sup> (2017)
   - Systems Software Principles (2017, 2016)
@@ -18,17 +18,14 @@ permalink: /courses/
   
 <sup>&dagger;</sup>General education course
 
-<br/>
 
-## University of Wisconsin-Madison
+### University of Wisconsin-Madison
 
   - Operating Systems (2013, 2014)
   - Computer Systems Modeling Fundamentals (2012)
   - Linear Programming (TA) (2011)
   
-
-<br/>
   
-## Wisconsin Center for Academically Talented Youth (WCATY)
+### Wisconsin Center for Academically Talented Youth (WCATY)
 
   - Intro to Computer Science (six summers, 2009-2014)

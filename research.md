@@ -4,18 +4,16 @@ title: Research
 permalink: /research/
 ---
 
-## Interests
-
 My scholarly work has been concentrated in the areas of computer performance analysis and queueing theory. More recently, I've been collaborating with students on projects involving course timetabling, AI, and CS education tools.
 
-**Analytic Performance Models**
+### Analytic Performance Models
 
 Modern storage systems in internet-scale applications must store vast amounts of data, protect it from loss, and deliver consistent performance, all for minimal capital and energy costs. Understanding what really drives storage performance is the key to creating the next-generation of high-performance systems.
 
 I approach these problems using the techniques of *analytic performance modeling*. Analytic models are mathematical descriptions of the essential characteristics of a system, often based on applied statistics or queueing theory. Analytic techniques can provide a faster and lower-cost alternative to simulation for exploring new system architectures and design tradeoffs.
 
 
-**CS Education**
+### CS Education
 
 Previous work has shown that *coding literacy*, the ability to read and interpret written programs, is an important precursor to writing new code. Therefore, explicit instruction in coding literacy may be accelerate the development of new computer science students, particularly those that lack previous exposure to programming.
 
@@ -25,7 +23,7 @@ COLT uses an *adaptive curiosity* model [inspired by previous work in developmen
 
 The development of COLT has been supported by a grant from the [Mindlin Foundation](https://mindlinfoundation.org).
 
-**Timetabling**
+### Timetabling
 
 Recently, Dr. Jay Yellen of the Rollins math department and I have been collaborating to create a new course timetabling system for the college. Our system, based on Dr. Yellen's previous work, models the scheduling problem as a coloring of a weighted graph. We are currently working on developing fast, admissible heuristics for a search over the space of possible room and timeslot assignments.
 

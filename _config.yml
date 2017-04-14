@@ -22,7 +22,7 @@ paginate:         3
 #version:          2.1.0
 
 github:           dansmyers
-repo:           https://github.com/dansmyers
+github_repo:      https://github.com/dansmyers
 
 # Gems
 gems:
