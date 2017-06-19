@@ -50,7 +50,7 @@ body {
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.375;
+  line-height: 1.5;
 }
 @media (min-width: 38em) {
   html {
@@ -59,8 +59,8 @@ html {
 }
 
 body {
-  color: #313131;
-  background-color: #fafafa;
+  color: #000000;
+  background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -81,10 +81,11 @@ a:focus {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
   margin-bottom: 1rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #313131;
+  color: #000000;
   text-rendering: optimizeLegibility;
 }
 h1 {

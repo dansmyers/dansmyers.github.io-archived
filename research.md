@@ -33,9 +33,14 @@ Recently, Dr. Jay Yellen of the Rollins math department and I have been collabor
 ## Publications and Selected Presentations
 Undergraduate student co-authors at Rollins College are <u>underlined</u>.
 
+D.S. Myers and <u>N. Chatlani</u>. "Implementing an Adaptive Tutorial System for Coding Literacy
+Education". To appear in *Journal of Computing Sciences in Colleges*, 2017.
+
 "Length Distributions and Dynamic Buffer Sizing in Multi-Server Queueing Systems". Southeast Decision Sciences 2017. Charleston, SC, 2/2017.
 
 "Using Machine Learning to Understand Storage Performance". Invited research seminar. Florida Southern College. 2/2017.
+
+"Designing an Automated Course Scheduling System". Rollins College Faculty Day of Scholarship. Winter Park, FL, 1/2017.
 
 <u>S.R. Shrestha</u>, D.S. Myers, and R.A. Lewin. “Optimizing Strategies for Monopoly: the MEGA Edition Using Genetic Algorithms and Simulations”. *Academy of Economics and Finance Journal*, vol. 7 (2016).
 
@@ -63,4 +68,4 @@ K.W. Larson, M.J. Procopio, A.I. Gonzales, D.K. Melgaard, F. Rothganger, D.S. My
 
 D.S. Myers, D.K. Melgaard, P.J. Lewis, and R.H. Byrne. “Impact of wavelet types on image data characteristics during compression”. In *Proc. Mathematics of Data/Image Pattern Recognition XI*. San Diego, CA, 2008.
 
-D.S. Myers, A.I. Gonzales, F.H. Rothganger, and K.W. Larson. “Implementing Wide Baseline Match- ing Algorithms on a Graphics Processing Unit”. SAND Report 2007-6301. Sandia National Laboratories, Albuquerque, NM, 2007.
+D.S. Myers, A.I. Gonzales, F.H. Rothganger, and K.W. Larson. “Implementing Wide Baseline Matching Algorithms on a Graphics Processing Unit”. SAND Report 2007-6301. Sandia National Laboratories, Albuquerque, NM, 2007.
