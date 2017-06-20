@@ -37,17 +37,17 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 56em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 64em) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -60,11 +60,10 @@ html {
  */
 
 .sidebar {
-  text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(0,0,0,.9);
+  text-align: left;
+  padding: 2rem 0rem;
 }
-@media (min-width: 64em) {
+/*@media (min-width: 64em) {
   .sidebar {
     position: fixed;
     top: 0;
@@ -73,7 +72,7 @@ html {
     width: 22rem;
     text-align: left;
   }
-}
+}*/
 
 /* Sidebar links */
 .sidebar a {
@@ -84,7 +83,7 @@ html {
 .sidebar-about h1 {
   color: #313131;
   margin-top: 0;
-  font-size: 2.25rem;
+  font-size: 3.0rem;
 }
 
 /* Sidebar nav */
@@ -92,8 +91,8 @@ html {
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
+  display: inline;
+  margin-right: 1.5rem;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -123,17 +122,17 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    3rem;
+  padding-top:    0rem;
   padding-bottom: 4rem;
 }
 
-@media (min-width: 64em) {
+/*@media (min-width: 64em) {
   .content {
     max-width: 40rem;
     margin-left: 24rem;
     margin-right: 2rem;
   }
-}
+}*/
 
 
 /*
