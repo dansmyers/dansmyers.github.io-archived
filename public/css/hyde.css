@@ -37,17 +37,17 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media (min-width: 56em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media (min-width: 64em) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
