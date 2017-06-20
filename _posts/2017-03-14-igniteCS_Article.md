@@ -5,7 +5,15 @@ date:   2017-03-14
 categories: community, teaching, service, grants
 ---
 
-This semester, nine Rollins students have been leading an after-school computer science mentoring program at Fern Creek Elementary School in Orlando. The program is funded by a grant from Google through their [igniteCS initiative](https://ignitecs.withgoogle.com). Sam Sadeh, a computer science major and social entrepreneurship minor, has been coordinating the program. I'm the faculty advisor on the project.
+![Rollins igniteCS](/images/igniteCS.jpg)
+
+This semester, nine Rollins students have been leading an after-school computer science mentoring program at Fern Creek Elementary School in Orlando. Fern Creek is considered a high-need school and receives federal Title I funding.
+
+The program is funded by a grant from Google through their [igniteCS initiative](https://ignitecs.withgoogle.com).
+
+Sam Sadeh, a computer science major and social entrepreneurship minor, has been coordinating the program and I'm
+serving as the faculty advisor.
+
 
 [A profile of Sam and the program](https://360.rollins.edu/people/igniting-kids-imagination-through-computer-science) is now up on the Rollins 360 website. I'm also interviewed in the article. Here's a short excerpt:
 
@@ -19,4 +27,4 @@ This semester, nine Rollins students have been leading an after-school computer 
 >
 > This spring, as part of an $1,100 grant through Google’s igniteCS initiative, Sadeh and eight Rollins classmates have used MIT’s child-friendly Scratch software to teach the basics of coding to students in Fern Creek’s after-school program
 
-I'm tremendously proud of the leadership our students have shown and what they've accomplished so far. Fern Creek will be closing at the end of this academic year, but we're looking forward to continuing the program at a new home next year.
+I'm proud of the leadership Sam and our students have shown and what they've accomplished so far. Fern Creek will be closing at the end of this academic year, but we're looking forward to continuing the program at a new home next year.
