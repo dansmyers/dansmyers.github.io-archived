@@ -51,6 +51,9 @@ html {
   }
 }
 
+about-picture {
+  align: "right";
+}
 
 /*
  * Sidebar
@@ -63,6 +66,19 @@ html {
   text-align: left;
   padding: 2rem 0rem;
 }
+
+.sidebar-about img {
+
+}
+
+@media (min-width: 64em) {
+  .sidebar-about img {
+    display: inline;
+    float: right;
+    margin-top: -1rem;
+  }
+}
+
 /*@media (min-width: 64em) {
   .sidebar {
     position: fixed;

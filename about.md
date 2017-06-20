@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+<img src="/images/self_color.jpg" width ="250px"  align="left" style="margin-right: 1rem;" alt="Picture of Dan Myers"/>
 
 I am an Assistant Professor of Computer Science at [Rollins College](http://www.rollins.edu).
 
