@@ -7,6 +7,8 @@ categories: community, teaching, service, grants
 
 ![Rollins igniteCS](/images/igniteCS.jpg)
 
+<span style="font-size:.75rem;">(Photo by Scott Cook)</span>
+
 This semester, nine Rollins students have been leading an after-school computer science mentoring program at Fern Creek Elementary School in Orlando. Fern Creek is considered a high-need school and receives federal Title I funding.
 
 The program is funded by a grant from Google through their [igniteCS initiative](https://ignitecs.withgoogle.com).

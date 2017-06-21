@@ -7,14 +7,13 @@ categories: community, teaching, service, grants
 
 An exciting update on our igniteCS initiative!
 
-
-I'm happy to report that we will be partnering with [Killarney
-Elementary](https://killarneyes.ocps.net) during the next
-academic year. 
-
 Following the closure of Fern Creek Elementary School at the end
-of this academic year, the program is in need of a new home. Killarney
-is an excellent school with great leadership and a place where our
+of this academic year, the program is in need of a new home. 
+I'm happy to report that we will be partnering with [Killarney
+Elementary](https://killarneyes.ocps.net) during the 2017-2018 school 
+year.
+
+ Killarney is an excellent school with great leadership and a place where our
 program can continue to make a positive impact on the community.
 
 We are also looking forward to continuing our relationship with
