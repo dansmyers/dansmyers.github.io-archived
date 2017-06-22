@@ -1,35 +1,4 @@
 /*
- *                        ___
- *                       /\_ \
- *  _____     ___     ___\//\ \      __
- * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
- * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
- *  \ \ ,__/\ \____/\ \____//\____\ \____\
- *   \ \ \/  \/___/  \/___/ \/____/\/____/
- *    \ \_\
- *     \/_/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/poole.
- */
-
-
-/*
- * Contents
- *
- * Body resets
- * Custom type
- * Messages
- * Container
- * Masthead
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-
-
-/*
  * Body resets
  *
  * Update the foundational and global aspects of the page.
@@ -48,14 +17,11 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background-color: #ffffff;
   line-height: 1.60;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
+  font-size: 20px;
+
 }
 
 body {
@@ -63,6 +29,89 @@ body {
   background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+}
+
+
+/*
+ * header
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.header {
+  text-align: left;
+  padding: 3rem 0rem;
+}
+
+/* header links */
+.header a {
+  color: #313131;
+}
+
+/* About section */
+.header-about h1 {
+  color: #313131;
+  margin-top: 0;
+  font-size: 2.125rem;
+}
+
+/* header nav */
+.header-nav {
+  margin-bottom: 0rem;
+}
+
+/* Display horizontally inline on large windows,
+ * stack as a block on smaller windows */
+.header-nav-item {
+  display: block;
+}
+@media (min-width: 48em) {
+  .header-nav-item {
+    display: inline;
+    margin-right: 2.5rem;
+  }
+}
+
+a.header-nav-item:hover,
+a.header-nav-item:focus {
+  text-decoration: underline;
+}
+.header-nav-item.active {
+  font-weight: bold;
+}
+
+
+/* Custom class for personal image on About page
+ *
+ * Makes image disappear when the window size is reduced on mobile
+ */
+.about-image {
+   display: none;
+}
+@media (min-width: 48em) {
+   .about-image {
+     display:inline;
+   }
+}
+
+
+/* Container
+ *
+ * Center page content
+ */
+
+.container {
+   max-width: 42rem;
+   padding-left:  1rem;
+   padding-right: 1rem;
+   margin-left:  auto;
+   margin-right: auto;
+}
+
+.content {
+  padding-top:    0rem;
+  padding-bottom: 4rem;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
@@ -79,9 +128,9 @@ a:focus {
   text-decoration: underline;
 }
 
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Georgia', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
   margin-bottom: 1rem;
   font-weight: bold;
   line-height: 1.25;
@@ -128,6 +177,7 @@ dd {
   margin-bottom: .5rem;
 }
 
+
 /* Misc */
 hr {
   position: relative;
@@ -147,6 +197,7 @@ abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
 }
+
 
 /* Code */
 code,
@@ -189,6 +240,7 @@ pre code {
   margin-bottom: 0;
 }
 
+
 /* Gist via GitHub Pages */
 .gist .gist-file {
   font-family: Menlo, Monaco, "Courier New", monospace !important;
@@ -211,6 +263,7 @@ pre code {
   border-radius: 0;
 }
 
+
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
@@ -228,12 +281,14 @@ blockquote p:last-child {
   }
 }
 
+
 img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+
 
 /* Tables */
 table {
@@ -254,18 +309,6 @@ tbody tr:nth-child(odd) th {
 
 
 /*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
-
-.lead {
-  font-size: 1.0rem;
-  /*font-weight: 300;*/
-}
-
-
-/*
  * Messages
  *
  * Show alert messages to users. You may add it to single elements like a `<p>`,
@@ -277,48 +320,6 @@ tbody tr:nth-child(odd) th {
   padding: 1rem;
   color: #717171;
   background-color: #f9f9f9;
-}
-
-
-/*
- * Container
- *
- * Center the page content.
- */
-
-.container {
-  max-width: 44rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
-  margin-left:  auto;
-  margin-right: auto;
-}
-
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
-.masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
-}
-.masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-}
-.masthead-title a {
-  color: #505050;
-}
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
 }
 
 
