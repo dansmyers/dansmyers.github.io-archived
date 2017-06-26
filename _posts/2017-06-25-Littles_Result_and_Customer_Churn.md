@@ -158,7 +158,7 @@ The general solution is
 Signup rate = Desired number of customers * Churn rate 
 ```
 
-The average number of customers in the system at any partcular month
+The average number of customers in the system
 is available from the basic form of Little's Result:
 
 ```
