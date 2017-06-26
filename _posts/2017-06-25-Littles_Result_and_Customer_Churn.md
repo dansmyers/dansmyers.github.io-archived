@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Little's Result and Customer Churn Modeling"
-date:   2017-05-15
+date:   2017-06-25
 categories: research, modeling, marketing
 ---
 
