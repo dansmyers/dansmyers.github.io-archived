@@ -18,7 +18,7 @@ asked the question, "How many people would need to join each month to sustain 10
 
 ## Churn Rates
 
-This is related to the concept of *customer churn*, which is a critical
+This question is related to the concept of *customer churn*, which is a critical
 issue for subscription-based businesses. The churn rate of a subscription
 service is the fraction of customers that cancel service at the end of 
 each billing period. For example, if a company has a churn rate of 50%, then half of its
