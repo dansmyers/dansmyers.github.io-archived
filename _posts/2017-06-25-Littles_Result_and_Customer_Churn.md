@@ -193,7 +193,7 @@ Some further questions to ponder:
     that Little's Result can be used to derive those as well.
   - What if customers' churn behavior is not geometric and memoryless,
     but time dependent? For example, many real products are sticky,
-    with long-term subscribers begin less likely to churn than new arrivals.
+    with long-term subscribers being less likely to churn than new arrivals.
   - What if the value of a customer changes over time, for example
   by selling upgrades?
   - What about early-stage companies, that are still in a rapid
