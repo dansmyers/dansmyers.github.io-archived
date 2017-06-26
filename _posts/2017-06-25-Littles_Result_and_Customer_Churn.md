@@ -52,10 +52,10 @@ This is an infinite geometric series.
 A little numerical computation 
 will verify that the sum of these terms converges to 200 customers per month.
 Therefore, under the assumptions of 50% churn rate and a recruitment
-rate of 100 customers per months, the business will have an average of
+rate of 100 customers per month, the business will have an average of
 200 customers in service at each period.
 
-To get 1000 customers per month, multiple the input rate by 5 to find
+To get 1000 customers per month, multiply the input rate by 5 to find
 you need 500 signups per period. Done!
 
 ## Little's Result
